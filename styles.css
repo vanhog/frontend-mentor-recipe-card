@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --stone-100: hsl(30, 54%,90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%,34%);
+    --stone-900: hsl(24, 5%, 18%);
+   
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-800: hsl(322, 51%, 32%);
+    --rose-50:  hsl(330,100%,98%);
+
+    --white: hsl(0, 0%, 100%);
+    --attribution-color: hsl(228, 45%, 44%); 
+
+    --box-content-width: 21rem;
+}
+
+* {
+    margin: 0rem;
+    padding-inline: 0rem;
+    text-align: left;
+
+
+    
+}
+body {
+    font-family: "Outfit" ,Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--stone-600);
+    font-size: 1rem;
+    background-color: var(--rose-50);
+}
+
+h1 {
+    font-size: 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.centered-box {
+    width: var(--box-content-width);
+    min-height: 100vh;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.recipe-photo{
+    width: var(--box-content-width);
+}
+
+.overview {
+    margin: 1rem;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    border-radius: 5px;
+    background-color: var(--rose-50);
+    text-align: left;
+}
+
+/* Frontend Mentor attribution styles */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: var(--attribution-color); }
+
+@media screen and (min-width: 30rem) {
+
+   .centered-box {
+      margin-block-start: 3rem;
+      border-radius: 10px;
+   }
+   .recipe-photo{
+      width: var(--box-content-width);
+      border-radius: 10px;
+}
+}
