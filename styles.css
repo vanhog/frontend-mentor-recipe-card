@@ -80,9 +80,10 @@ a {
    .centered-box {
       margin-block-start: 3rem;
       border-radius: 10px;
+      padding: 1rem;
    }
    .recipe-photo{
-      width: var(--box-content-width);
+      width: calc(var(--box-content-width) - 2rem);
       border-radius: 10px;
 }
 }
