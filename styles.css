@@ -15,7 +15,9 @@
     --white: hsl(0, 0%, 100%);
     --attribution-color: hsl(228, 45%, 44%); 
 
-    --box-content-width: 21rem;
+    --box-content-width: 23.5rem;
+
+    --big-skip: 2rem;
 }
 
 * {
@@ -33,13 +35,32 @@ body {
     background-color: var(--rose-50);
 }
 
+section {
+    margin-block-end: var(--big-skip);
+}
+
 h1 {
-    font-size: 0rem;
+    font-size: 2rem;
+    font-family: "Young Serif", Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+    margin-block-end: 1.5rem;
+    padding-inline: 2rem;
+}
+
+h2 {
+   padding-inline-start: 2rem;
+}
+
+p {
+    line-height: 1.5;
+    padding-inline: 2rem;
+    
 }
 
 a {
     text-decoration: none;
 }
+
 .center-screen {
   display: flex;
   flex-direction: column;
@@ -60,22 +81,26 @@ a {
 
 .recipe-photo{
     width: var(--box-content-width);
+
 }
 
 .overview {
-    margin: 1rem;
+    margin: 2rem;
     padding-inline: 3rem;
     padding-block: 1rem;
+    line-height: 2rem;
     border-radius: 5px;
     background-color: var(--rose-50);
     text-align: left;
 }
 
+.
+
 /* Frontend Mentor attribution styles */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: var(--attribution-color); }
 
-@media screen and (min-width: 30rem) {
+@media screen and (min-width: 50rem) {
 
    .centered-box {
       margin-block-start: 3rem;
