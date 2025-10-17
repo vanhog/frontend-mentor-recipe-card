@@ -88,8 +88,13 @@ section[name="ingredients"]{
 
 section[name="instructions"]{
     margin: 2rem;
+    padding-inline: 1rem;
 }
 
+section[name="nutrition"]{
+    margin: 2rem;
+    padding-inline: 1rem;
+}
 
 .recipe-photo{
     width: var(--box-content-width);
@@ -124,7 +129,7 @@ section[name="instructions"]{
 }
 
 /* Frontend Mentor attribution styles */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-block-start: 2rem;}
 .attribution a { color: var(--attribution-color); }
 
 @media screen and (min-width: 50rem) {
