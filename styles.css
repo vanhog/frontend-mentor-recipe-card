@@ -48,7 +48,10 @@ h1 {
 }
 
 h2 {
-   padding-inline-start: 2rem;
+   font-family: "Young Serif", Verdana, Geneva, Tahoma, sans-serif;
+   color: var(--brown-800);
+   margin-inline-start: -1rem;
+   margin-block-end: 1rem;
 }
 
 p {
@@ -60,6 +63,38 @@ p {
 a {
     text-decoration: none;
 }
+
+
+section[name="time"]{
+    margin: 2rem;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    line-height: 2rem;
+    border-radius: 5px;
+    background-color: var(--rose-50);
+    text-align: left;
+}
+
+section[name="time"] .timetitle {
+        color: var(--rose-800);
+        font-weight: bold;   
+}
+
+section[name="ingredients"]{
+    margin: 2rem;
+    padding-inline: 1rem;
+    line-height: 2rem;
+}
+
+section[name="instructions"]{
+    margin: 2rem;
+}
+
+
+.recipe-photo{
+    width: var(--box-content-width);
+}
+
 
 .center-screen {
   display: flex;
@@ -79,22 +114,14 @@ a {
     box-sizing: border-box;
 }
 
-.recipe-photo{
-    width: var(--box-content-width);
 
+
+
+
+
+.seperation-line {
+    margin-inline: 2rem;
 }
-
-.overview {
-    margin: 2rem;
-    padding-inline: 3rem;
-    padding-block: 1rem;
-    line-height: 2rem;
-    border-radius: 5px;
-    background-color: var(--rose-50);
-    text-align: left;
-}
-
-.
 
 /* Frontend Mentor attribution styles */
 .attribution { font-size: 11px; text-align: center; }
