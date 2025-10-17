@@ -64,6 +64,23 @@ a {
     text-decoration: none;
 }
 
+ol {
+    line-height: 1.5rem;
+}
+
+ol li{
+    margin-block-end: 0.5rem;
+}
+
+ol li span {
+    position: relative;
+    left: 1rem;
+}
+ol li::marker{
+    font-family: "Outfit" ,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: var(--brown-800);
+}
 
 section[name="time"]{
     margin: 2rem;
@@ -94,6 +111,14 @@ section[name="instructions"]{
 section[name="nutrition"]{
     margin: 2rem;
     padding-inline: 1rem;
+}
+
+section[name="nutrition"] p {
+    line-height: 1.5;
+    padding-inline-start: 0rem;
+    padding-inline-end: 1rem;
+    margin-inline: -1rem
+    
 }
 
 .recipe-photo{
