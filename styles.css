@@ -82,6 +82,27 @@ ol li::marker{
     color: var(--brown-800);
 }
 
+table {
+    border-spacing: 0rem;
+    width: 100%;
+    margin-inline-start: -1rem;
+}
+
+td {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    padding-block: 1rem;
+}
+
+td.value {
+    font-weight: bold;
+    color: var(--brown-800)
+}
+
+td.nutrition-key {
+    padding-inline-start: 2rem;
+}
+
 section[name="time"]{
     margin: 2rem;
     padding-inline: 3rem;
@@ -146,26 +167,37 @@ section[name="nutrition"] p {
 
 
 
-
-
-
 .seperation-line {
     margin-inline: 2rem;
 }
+
 
 /* Frontend Mentor attribution styles */
 .attribution { font-size: 11px; text-align: center; margin-block-start: 2rem;}
 .attribution a { color: var(--attribution-color); }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 48rem) {
 
    .centered-box {
+      width: 46rem;
       margin-block-start: 3rem;
       border-radius: 10px;
       padding: 1rem;
    }
    .recipe-photo{
-      width: calc(var(--box-content-width) - 2rem);
-      border-radius: 10px;
-}
+      width: 42rem;
+      border-radius: 20px;
+      padding-inline-start: 1rem;
+      padding-block-start: 1rem;
+   }
+
+   section[name="time"]{
+    margin: 1rem;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+   }
+
+   td.nutrition-key {
+    width: 55%;
+   }
 }
