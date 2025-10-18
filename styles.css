@@ -8,6 +8,7 @@
     --stone-900: hsl(24, 5%, 18%);
    
     --brown-800: hsl(14, 45%, 36%);
+    --brown-bgr: hsl(29, 11%, 95%); 
 
     --rose-800: hsl(322, 51%, 32%);
     --rose-50:  hsl(330,100%,98%);
@@ -32,7 +33,7 @@ body {
     font-family: "Outfit" ,Verdana, Geneva, Tahoma, sans-serif;
     color: var(--stone-600);
     font-size: 1rem;
-    background-color: var(--rose-50);
+    background-color: var(--stone-100);
 }
 
 section {
