@@ -173,14 +173,14 @@ section[name="nutrition"] p {
 
 
 /* Frontend Mentor attribution styles */
-.attribution { font-size: 11px; text-align: center; margin-block-start: 2rem;}
+.attribution { font-size: 0.6875rem; text-align: center; margin-block-start: 2rem;}
 .attribution a { color: var(--attribution-color); }
 
 @media screen and (min-width: 48rem) {
 
    .centered-box {
       width: 46rem;
-      margin-block-start: 3rem;
+      margin-block-start: 7.5rem;
       border-radius: 10px;
       padding: 1rem;
    }
