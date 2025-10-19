@@ -33,7 +33,7 @@ body {
     font-family: "Outfit" ,Verdana, Geneva, Tahoma, sans-serif;
     color: var(--stone-600);
     font-size: 1rem;
-    background-color: var(--stone-100);
+    background-color: var(--stone-100); /* This needs to be stone, even if it does not look like ... stone. */
 }
 
 section {
