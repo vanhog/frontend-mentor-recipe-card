@@ -145,6 +145,7 @@ section[name="nutrition"] p {
 
 .recipe-photo{
     width: var(--box-content-width);
+    margin-block-end: 0.5rem;
 }
 
 
